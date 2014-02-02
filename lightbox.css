@@ -1,0 +1,6 @@
+/* Lightbox */
+.lightbox {display: none;}
+.lightbox-background {width: 100%; height: 100%; background: #000; opacity: .7; filter: alpha(opacity=70); position: fixed; left: 0; top: 0; z-index: 20}
+.lightbox-content {background-color: #6C6C6C; border: 1px solid black; position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; height: 500px; width: 800px; padding: 1em; z-index: 20}
+.lightbox-content div {display: inline-block; min-width: 150px; min-height: 30px}
+.lightbox-content .lightbox-close {position: absolute; top: 0; right: 0;}
